@@ -128,7 +128,7 @@ To install rvm, open a terminal window and run the following commands (copied di
 `source /Users/[Computer Username]/.rvm/scripts/rvm`
 
 Once installed RVM will say:
-```
+```shell
 Installation of RVM in /Users/[Computer Username]/.rvm/ is almost complete:
 
 * To start using RVM you need to run `source /Users/[Computer Username]/.rvm/scripts/rvm`
@@ -223,5 +223,7 @@ If you see the output above, rails is running and you can point your browser at 
 
 ![Yay! You're on Rails!]({{ site.baseurl}}/assets/images/youre_on_rails.png){: .screenshot}
 
-This is not the directory you'll be using in the tutorial. To remove this simply type `rm -rf test_rails`.
+This is not the directory you'll be using in the tutorial. 
+
+To remove this simply type `rm -rf test_rails`.
 {% endaside %}
